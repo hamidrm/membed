@@ -1,7 +1,7 @@
 
 # membed
 
-A fast and lightweight block memory management for embedded systems. In each search for new free slot, it will cache multiple instance to allocate future memory required without wasting time.
+A lightweight and fast block memory management library for embedded systems. Every time it is seeking a free slot, it will cache multiple instances to immediately allocate future slots that will be requested.
 
 Sample Usage:
 ```C
